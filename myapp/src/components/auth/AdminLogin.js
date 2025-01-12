@@ -12,7 +12,7 @@ const AdminLogin = () => {
     e.preventDefault();
     try {
       // Update the endpoint to the correct /admin/login
-      const response = await axios.post('http://localhost:3001/admin/login', { email, password });
+      const response = await axios.post('https://personal-portfolio-kro.vercel.app/login', { email, password });
       localStorage.setItem('adminToken', response.data.token); // Store JWT
       navigate('/admin-dashboard'); // Redirect to dashboard
     } catch (err) {
