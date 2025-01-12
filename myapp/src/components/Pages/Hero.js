@@ -16,13 +16,13 @@ const Hero = () => {
           </p>
           <div className="space-x-4">
             <a
-              href="/get-started"
+              href="/member"
               className="px-6 py-3 text-black bg-primary rounded-md text-lg font-medium hover:bg-secondary"
             >
               Get Started
             </a>
             <a
-              href="/learn-more"
+              href="/member"
               className="px-6 py-3 border bg-primary border-white text-white rounded-md text-lg font-medium hover:bg-secondary"
             >
               Learn More
